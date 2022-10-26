@@ -1,5 +1,6 @@
 import "./App.css";
 import NavbarContainer from "./components/NavbarComponent";
+import HomeContainer from "./components/HomeComponent";
 import { useEffect } from "react";
 import { themeChange } from "theme-change";
 
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <NavbarContainer />{" "}
+      <NavbarContainer /> <HomeContainer />
     </div>
   );
 }
