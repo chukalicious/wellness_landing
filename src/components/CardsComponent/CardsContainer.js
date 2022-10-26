@@ -1,7 +1,7 @@
 const CardsContainer = () => {
   return (
-    <div className="bg-base-200 flex flex-col">
-      <div className="card w-[90%] bg-base-100 shadow-xl mx-auto">
+    <div className="bg-base-200 mt-[3rem] flex flex-col md:flex-row">
+      <div className="card w-[90%] my-4 md:w-[33%] md:mx-4 bg-base-100 shadow-xl mx-auto">
         <figure className="px-10 pt-10">
           <img
             src="https://placeimg.com/400/225/arch"
@@ -17,7 +17,7 @@ const CardsContainer = () => {
           </div>
         </div>
       </div>
-      <div className="card w-[90%] bg-base-100 shadow-xl mx-auto">
+      <div className="card w-[90%] my-4 md:w-[33%] md:mx-4 bg-base-100 shadow-xl mx-auto">
         <figure className="px-10 pt-10">
           <img
             src="https://placeimg.com/400/225/arch"
@@ -33,7 +33,7 @@ const CardsContainer = () => {
           </div>
         </div>
       </div>
-      <div className="card w-[90%] bg-base-100 shadow-xl mx-auto">
+      <div className="card w-[90%] my-4 md:w-[33%] md:mx-4 bg-base-100 shadow-xl mx-auto">
         <figure className="px-10 pt-10">
           <img
             src="https://placeimg.com/400/225/arch"
