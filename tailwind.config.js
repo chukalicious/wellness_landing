@@ -6,7 +6,21 @@ module.exports = {
   },
   daisyui: {
     styled: true,
-    themes: ["light"],
+    themes: [
+      {
+        mytheme: {
+          primary: "#F6C0B7",
+          secondary: "#CD8D4C",
+          accent: "#8C853E",
+          neutral: "#161412",
+          "base-100": "#F6F4F3",
+          info: "#3ABFF8",
+          success: "#36D399",
+          warning: "#FBBD23",
+          error: "#F87272",
+        },
+      },
+    ],
     base: true,
     utils: true,
     logs: true,
